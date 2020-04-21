@@ -1,0 +1,72 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:RailsAmusementPark
+ApplicationCable	app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m
+ApplicationCable	app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationJob	app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c
+ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c
+ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
+ApplicationSystemTestCase	test/application_system_test_case.rb	/^class ApplicationSystemTestCase < ActionDispatch::SystemTestCase$/;"	c
+Attraction	app/models/attraction.rb	/^class Attraction < ApplicationRecord$/;"	c
+AttractionTest	test/models/attraction_test.rb	/^class AttractionTest < ActiveSupport::TestCase$/;"	c
+AttractionsController	app/controllers/attractions_controller.rb	/^class AttractionsController < ApplicationController$/;"	c
+AttractionsControllerTest	test/controllers/attractions_controller_test.rb	/^class AttractionsControllerTest < ActionDispatch::IntegrationTest$/;"	c
+AttractionsHelper	app/helpers/attractions_helper.rb	/^module AttractionsHelper$/;"	m
+Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	class:ApplicationCable
+Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	class:ApplicationCable
+CreateAttractions	db/migrate/20200420202201_create_attractions.rb	/^class CreateAttractions < ActiveRecord::Migration[5.2]$/;"	c
+CreateRides	db/migrate/20200420202514_create_rides.rb	/^class CreateRides < ActiveRecord::Migration[5.2]$/;"	c
+CreateUsers	db/migrate/20200420201901_create_users.rb	/^class CreateUsers < ActiveRecord::Migration[5.2]$/;"	c
+LoginHelper	spec/support/login_helper.rb	/^module LoginHelper$/;"	m
+RailsAmusementPark	config/application.rb	/^module RailsAmusementPark$/;"	m
+Ride	app/models/ride.rb	/^class Ride < ActiveRecord::Base$/;"	c
+RideTest	test/models/ride_test.rb	/^class RideTest < ActiveSupport::TestCase$/;"	c
+RidesController	app/controllers/rides_controller.rb	/^class RidesController < ApplicationController$/;"	c
+RidesControllerTest	test/controllers/rides_controller_test.rb	/^class RidesControllerTest < ActionDispatch::IntegrationTest$/;"	c
+RidesHelper	app/helpers/rides_helper.rb	/^module RidesHelper$/;"	m
+SessionsController	app/controllers/sessions_controller.rb	/^class SessionsController < ApplicationController$/;"	c
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UserTest	test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+UsersControllerTest	test/controllers/users_controller_test.rb	/^class UsersControllerTest < ActionDispatch::IntegrationTest$/;"	c
+UsersHelper	app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
+admin_login	spec/support/login_helper.rb	/^  def admin_login$/;"	f	class:LoginHelper
+admin_signup	spec/support/login_helper.rb	/^  def admin_signup$/;"	f	class:LoginHelper
+change	db/migrate/20200420201901_create_users.rb	/^  def change$/;"	f	class:CreateUsers
+change	db/migrate/20200420202201_create_attractions.rb	/^  def change$/;"	f	class:CreateAttractions
+change	db/migrate/20200420202514_create_rides.rb	/^  def change$/;"	f	class:CreateRides
+create	app/controllers/rides_controller.rb	/^  def create$/;"	f	class:RidesController
+create	app/controllers/sessions_controller.rb	/^  def create$/;"	f	class:SessionsController
+create	app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+create_standard_and_admin_user	spec/support/login_helper.rb	/^  def create_standard_and_admin_user$/;"	f	class:LoginHelper
+create_standard_user	spec/support/login_helper.rb	/^  def create_standard_user $/;"	f	class:LoginHelper
+current_user	app/controllers/application_controller.rb	/^  def current_user$/;"	f	class:ApplicationController
+destroy	app/controllers/sessions_controller.rb	/^  def destroy$/;"	f	class:SessionsController
+destroy	app/controllers/users_controller.rb	/^  def destroy$/;"	f	class:UsersController
+edit	app/controllers/users_controller.rb	/^  def edit$/;"	f	class:UsersController
+index	app/controllers/attractions_controller.rb	/^  def index$/;"	f	class:AttractionsController
+index	app/controllers/users_controller.rb	/^  def index$/;"	f	class:UsersController
+logged_in?	app/controllers/users_controller.rb	/^  def logged_in?$/;"	f	class:UsersController
+main	db/seeds.rb	/^def main$/;"	f
+make_admin	db/seeds.rb	/^def make_admin$/;"	f
+make_attractions_and_rides	db/seeds.rb	/^def make_attractions_and_rides$/;"	f
+make_users	db/seeds.rb	/^def make_users$/;"	f
+mood	app/models/user.rb	/^  def mood$/;"	f	class:User
+new	app/controllers/sessions_controller.rb	/^  def new$/;"	f	class:SessionsController
+new	app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+show	app/controllers/attractions_controller.rb	/^  def show$/;"	f	class:AttractionsController
+show	app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+system!	bin/setup	/^def system!(*args)$/;"	f
+system!	bin/update	/^def system!(*args)$/;"	f
+take_ride	app/models/ride.rb	/^  def take_ride$/;"	f	class:Ride
+update	app/controllers/users_controller.rb	/^  def update$/;"	f	class:UsersController
+user_login	spec/support/login_helper.rb	/^  def user_login$/;"	f	class:LoginHelper
+user_params	app/controllers/users_controller.rb	/^  def user_params$/;"	f	class:UsersController
+user_signup	spec/support/login_helper.rb	/^  def user_signup$/;"	f	class:LoginHelper
