@@ -1,0 +1,9 @@
+<h1>Attractions</h1>
+<ul>
+<% @attractions.each do |att| %>
+  <li><%= link_to "Go on #{att.name}", attraction_path(att) %></li>
+<% end %>
+</ul>
+
+<%# <%= link_to "New Attraction", new_attraction_path if @admin %1> %>
+
