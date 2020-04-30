@@ -1,0 +1,17 @@
+<h1>Welcome <%= @user.name %></h1>
+<p>Mood: <%= @user.mood %></p>
+<p>Tickets: <%= @user.tickets %></p>
+<p>Nausea: <%= @user.nausea %></p>
+<p>Height: <%= @user.height %></p>
+<% if @user.admin %>
+<p>ADMIN</p>
+<% end %>
+
+
+<% if @ride %>
+    <p>Your last ride was <%= @ride.attraction.name%></p>
+    <p><%= @ride.take_ride %></p>
+<% end %>
+
+<%= link_to "See attractions", attractions_path %>
+
