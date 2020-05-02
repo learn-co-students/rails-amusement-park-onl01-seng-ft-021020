@@ -1,0 +1,16 @@
+<ul>
+    <% @attractions.each do |attr| %>
+
+        <% if @user.admin == false  %>
+            <li><%= attr.name %> <%= link_to "Go on #{attr.name}", attraction_path(attr)%> </li>
+        <% else%>
+            <li><%= attr.name %> <%= link_to "Show #{attr.name}", attraction_path(attr) %><li>
+        <% end %> 
+
+    <% end %>
+
+</ul>
+
+<% if @user.admin == true %>
+        <p><%= link_to "New Attraction", new_attraction_path %></p>
+        <% end %> 
